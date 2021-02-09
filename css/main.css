@@ -34,24 +34,19 @@ header{
 }
 
 .container2{
-    padding: 15px;
+    padding-left: 50px;
+    padding-bottom: 50px;
     margin: auto;
     width: 1200px;
     border-radius: 5px;
     background-color:#fff;
 }
 
-
-li{
-    list-style-type:none
-}
-
-
 .button1{
     width: 150px;
     height: 40%;
     margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background: dodgerblue;
     display: inline-block;
     text-align: center;
@@ -66,7 +61,7 @@ li{
     width: 150px;
     height: 40%;
     margin-left: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background: white;
     display: inline-block;
     text-align: center;
@@ -79,3 +74,34 @@ li{
 }
 
 
+.list-item{
+    list-style-type:none;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    color: green; 
+    border: 1px solid ;
+    border-radius: 50%;
+}
+.icon2{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    color: red; 
+    border: 1px solid ;
+    border-radius: 50%;
+}
